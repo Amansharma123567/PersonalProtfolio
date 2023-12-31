@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Aman Sharma</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="projects.css">
+</head>
+
+<body>
+    <header>
+        <h1>My Projects</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Me</a>
+            <a href="resume.html">Resume</a>
+            <a href="skills.html">Skills</a>
+            <a href="certifications.html">Certifications</a>
+
+            <!-- adding html text to change thecolor that is here -->
+
+        <div id="color-switcher">
+            <span class="btn" id="lightgreen" onclick="changeBG('#90ee90')"></span>
+            <span class="btn" id="aqua" onclick="changeBG('#7fffd4')"></span>
+            <span class="btn" id="salmon" onclick="changeBG('#FA8072')"></span>
+            <span class="btn" id="violet" onclick="changeBG('#EE82EE')"></span> 
+            <span class="btn" id="dodgerblue" onclick="changeBG('#1E90FF')"></span> 
+            <span class="btn" id="skin" onclick="changeBG('#F4A460')"></span>   
+        </div>
+        <!-- will go onto here -->
+        </nav>
+    </header>
+   <div class="styleSections">
+     <!-- Section 1 Starts here -->
+    <section class="about-me">
+        <div class="content">
+            <h2>Weather-App</h2>
+            <p>This is a Weather Application shows real time weather data with the exact speed and humidity of any location.
+                 We just need click on search bar and search any city and it will tell the exact current behaviour of the weather.
+                 It has the capacity to search any location world wide and show the current weather data.
+                 I have used HTML, CSS and JS to make the UI of this website, and i have used OpenWeatherAPI to fetch the current data of any location.
+            </p>
+        </div>
+        <div class="image">
+            <img src="weatherApp.png" alt="Image 1">
+        </div>
+    </section>
+    <br><br>
+    <!-- section 2nd starats here -->
+    <section class="about-me">
+        <div class="image">
+            <img src="MusicPlayer.png" alt="Image 1">
+        </div>
+        <div class="content">
+            <h2>Music Player</h2>
+            <p>
+                It is an Music Player website, where a person can come and listen his favorite song.
+                 He can also be able to bookmark it, make a playlist of songs and he will be able to change the music, 
+                 else the song will change automatically when the current song ends.
+                 I have used HTML and CSS for styling this. And i have used JavaScript to make some functionality here.
+            </p>
+        </div>
+    </section>
+    <br><br>
+    <!-- section 3rd starts here -->
+    <section class="about-me">
+        <div class="content">
+            <h2>To-Do List</h2>
+            <p>
+                This is an website like, we can add our routine in it in the morning and as our work ends
+                 we can come and erase that task. Similarly we can do our all tasks it is very heplful for 
+                 the peoples who priorities their tasks. We can add infinite task in it once the task is done erase it.
+                 I have used HTML, CSS to design it and i have used javascirpt to add some features like delete and add tasks.
+            </p>
+        </div>
+        <div class="image">
+            <img src="ToDoList.png" alt="Image 1">
+        </div>
+    </section>
+    <br><br>
+   </div>
+
+   <!-- here will be adding javascript code to color changer -->
+
+   <script>
+    function changeBG(color) {
+        document.body.style.backgroundColor = color;
+    }
+</script>
+
+<!-- this code will go till here  -->
+
+</body>
+
+</html>

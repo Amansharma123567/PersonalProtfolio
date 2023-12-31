@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills - Aman Sharma</title>
+    <link rel="stylesheet" href="skills.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>My Skills</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="resume.html">Resume</a>
+            <a href="about.html">About Me</a>
+            <a href="projects.html">Projects</a>
+            <a href="certifications.html">Certifications</a>
+
+
+            <!-- adding html text to change thecolor that is here -->
+
+        <div id="color-switcher">
+            <span class="btn" id="lightgreen" onclick="changeBG('#90ee90')"></span>
+            <span class="btn" id="aqua" onclick="changeBG('#7fffd4')"></span>
+            <span class="btn" id="salmon" onclick="changeBG('#FA8072')"></span>
+            <span class="btn" id="violet" onclick="changeBG('#EE82EE')"></span> 
+            <span class="btn" id="dodgerblue" onclick="changeBG('#1E90FF')"></span> 
+            <span class="btn" id="skin" onclick="changeBG('#F4A460')"></span>   
+        </div>
+        <!-- will go onto here -->
+        </nav>
+    </header>
+    <div class="skills">
+        <div class="skill">
+            <span class="skill-name">Java</span>
+            <span class="span">85%</span>
+            <div class="skill-bar">
+                <div class="skill-progress" style="width: 85%;"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <span class="skill-name">MySQL</span>
+            <span class="span">90%</span>
+            <div class="skill-bar">
+                <div class="skill-progress" style="width: 90%;"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <span class="skill-name">HTML</span>
+            <span class="span">98%</span>
+            <div class="skill-bar">
+                <div class="skill-progress" style="width: 98%;"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <span class="skill-name">CSS</span>
+            <span class="span">90%</span>
+            <div class="skill-bar">
+                <div class="skill-progress" style="width: 90%;"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <span class="skill-name">JS</span>
+            <span class="span">50%</span>
+            <div class="skill-bar">
+                <div class="skill-progress" style="width: 50%;"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <span class="skill-name">Spring Core</span>
+            <span class="span">70%</span>
+            <div class="skill-bar">
+                <div class="skill-progress" style="width: 70%;"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <span class="skill-name">Junit</span>
+            <span class="span">95%</span>
+            <div class="skill-bar">
+                <div class="skill-progress" style="width: 95%;"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <span class="skill-name">DSA</span>
+            <span class="span">80%</span>
+            <div class="skill-bar">
+                <div class="skill-progress" style="width: 80%;"></div>
+            </div>
+        </div>
+        <!-- Add more skills as needed -->
+    </div>
+<!-- here will be adding javascript code to color changer -->
+
+<script>
+    function changeBG(color) {
+        document.body.style.backgroundColor = color;
+    }
+</script>
+
+<!-- this code will go till here  -->
+
+</body>
+</html>

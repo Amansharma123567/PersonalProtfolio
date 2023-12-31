@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aman Sharma - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Aman Sharma</h1>
+        <nav>
+            <a href="resume.html">Resume</a>
+            <a href="about.html">About Me</a>
+            <a href="skills.html">Skills</a>
+            <a href="projects.html">Projects</a>
+            <a href="certifications.html">Certifications</a>
+            <!-- adding html text to change thecolor that is here -->
+
+        <div id="color-switcher">
+            <span class="btn" id="lightgreen" onclick="changeBG('#90ee90')"></span>
+            <span class="btn" id="aqua" onclick="changeBG('#7fffd4')"></span>
+            <span class="btn" id="salmon" onclick="changeBG('#FA8072')"></span>
+            <span class="btn" id="violet" onclick="changeBG('#EE82EE')"></span> 
+            <span class="btn" id="dodgerblue" onclick="changeBG('#1E90FF')"></span> 
+            <span class="btn" id="skin" onclick="changeBG('#F4A460')"></span>   
+        </div>
+        <!-- will go onto here -->
+        </nav>
+    </header>
+
+    <section class="main-section">
+        <div class="welcome-text">
+            <p class="welcome">Welcome, to My Portfolio</p>
+            <!-- <h1></h1> -->
+            <p class="intro">Hello, I am <b>Aman Sharma.</b>
+                I am B-Tech final year student. 
+                I have made some cool projects and done some certifications
+                 please do visit them and give me best your feedback,
+                 Also tell me what more i can include in them to increase the Quality.</p>
+        </div>
+        <img src="GarbhaDayPIC.jpg" alt="Your Image">
+    </section>
+
+
+
+     <!-- the code if we want to add the video 
+     <video autoplay muted loop id="video-background">
+        <source src="backgroundimg.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>  -->
+    <footer>
+        <h1 id="fhead">Connect with Me</h1>
+        <div>
+            <nav>
+                <a href="https://www.linkedin.com/in/amansharma8173" class="list" >LinkedIn</a>
+                <a href="https://www.instagram.com/aman.sharma_09" class="list">Instagram</a>
+                <a href="https://mail.google.com/amansharma2062003@gmail.com">Email</a>
+            </nav>
+        </div>
+        <h2>Thank you for Visiting </h2>
+        <p>&copy; 2024 Aman Sharma</p>
+           
+    </footer>
+
+    <!-- here will be adding javascript code to color changer -->
+    <script>
+        function changeBG(color) {
+            document.body.style.backgroundColor = color;
+        }
+    </script>
+    <!-- this code will go till here  -->
+</body>
+</html>

@@ -1,0 +1,124 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: lightslategray;
+}
+
+
+
+/* adding css code for the background changer purpose */
+.btn {
+    width: 2rem;
+    height: 2rem;
+    display: inline-block;
+    border: .002rem solid blue;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#lightgreen {
+    background-color: lightgreen;
+}
+
+#aqua {
+    background-color: aqua;
+}
+
+#salmon {
+    background-color: salmon;
+}
+#violet {
+    background-color: violet;
+}
+#dodgerblue {
+    background-color: dodgerblue;
+}
+#skin{
+    background-color: sandybrown;
+}
+
+#color-switcher {
+    text-align: right;
+    float: right;
+}
+/* this will go on here  */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+}
+header h1{
+    font-size: 40px;
+}
+header nav a {
+    color: #fff;
+    margin: 0 30px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.resume {
+    font-size: 17px;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: whitesmoke;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name {
+    flex: 1;
+    font-size: 35px;
+    margin-bottom: 10px; /* Added space below the name */
+}
+
+.contact {
+    flex: 1;
+    text-align: right;
+}
+
+.contact p {
+    margin: 0;
+    margin-bottom: 10px;
+    line-height: 1.5; /* Adjusting line height for better spacing */
+}
+
+.contact a {
+    text-decoration: none;
+    color: #0077b5; /* LinkedIn's brand color */
+}
+
+.contact a:hover {
+    text-decoration: underline;
+    color: #005e8d; /* Slightly darker shade for hover effect */
+}
+#first{
+    border: none;
+    height: 2px;
+    background-color: black;
+    margin: 20px 0;
+
+}
+hr{
+
+    border: none;
+    height: 2px;
+    background-color: black;
+    margin: 20px 0;
+
+}
+h2{
+    color: #005e8d;
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Aman Sharma</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="about.css">
+</head>
+
+<body>
+    <header>
+        <h1>About Me</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="resume.html">Resume</a>
+            <a href="skills.html">Skills</a>
+            <a href="projects.html">Projects</a>
+            <a href="certifications.html">Certifications</a>
+        
+            <!-- adding html text to change thecolor that is here -->
+
+        <div id="color-switcher">
+            <span class="btn" id="lightgreen" onclick="changeBG('#90ee90')"></span>
+            <span class="btn" id="aqua" onclick="changeBG('#7fffd4')"></span>
+            <span class="btn" id="salmon" onclick="changeBG('#FA8072')"></span>
+            <span class="btn" id="violet" onclick="changeBG('#EE82EE')"></span> 
+            <span class="btn" id="dodgerblue" onclick="changeBG('#1E90FF')"></span> 
+            <span class="btn" id="skin" onclick="changeBG('#F4A460')"></span>   
+        </div>
+        <!-- will go onto here -->
+        
+        </nav>
+    </header>
+   <div class="styleSections">
+     <!-- Section 1 Starts here -->
+    <section class="about-me">
+        <div class="content">
+            <h2>Introduction</h2>
+            <p>Hi, Myself Aman Sharma. I am currently persuing B.tech final year from Malwa Institute of Technology,
+                Indore.
+                If i talk about my coding journey, i am a full stack web developer.
+                I learned HTML, CSS and JS for front end, I use JAVA for the backend and i use MySQL database.
+                I also had done some certifications like AWS, JAVA(core) and TCSiON.
+            </p>
+        </div>
+        <div class="image">
+            <img src="aman.jpg" alt="Image 1">
+        </div>
+    </section>
+    <br><br>
+    <!-- section 2nd starats here -->
+    <section class="about-me">
+        <div class="image">
+            <img src="gfgstreak.jpg" alt="Image 1">
+        </div>
+        <div class="content">
+            <h2>SKills & Development:</h2>
+            <p>As i am in final year, I have done so much coding and development in these 3 years of college. 
+                i am a full stack developer, I learned HTML,CSS and JS for front end. I use JAVA for backend, and MySQL for database.
+                I also have a solid foundation at Data Structures and Algorithms. I have solved over 250+ Question on different- different plateforms like GeeksForGeeks, Hackerrank and LeetCode.
+                I also achieved 5 STAR at Hackerrank, I got goodies from gfg a t-shirt for solving Problem of the Day problems. 
+
+            </p>
+        </div>
+    </section>
+    <br><br>
+    <!-- section 3rd starts here -->
+    <section class="about-me">
+        <div class="content">
+            <h2>Hobbies and Interests</h2>
+            <p>Certainlly, I don't have any hobbies but i have some interest of playing outdoor games, like cricket,
+                Kabaddi, listening music, coding.
+                Coding is my favorite hobby, especially when i am developing something, also i enjoy problem solving on
+                different plateforms like GeeksForGeeks and Hackerrank.
+            </p>
+        </div>
+        <div class="image">
+            <img src="img5.jpg" alt="Image 1">
+        </div>
+    </section>
+    <br><br>
+    <!-- section 4th starts here -->
+    <section class="about-me">
+        <div class="image">
+            <img src="img4.jpg" alt="Image 1">
+        </div>
+        <div class="content">
+            <h2>Schooling Background</h2>
+            <p>I am basically from Uttar Pradesh, India. I have done my 10th with 85% marks and my 12th with 80% marks
+                from
+                Shree Chandika Inter Mediate College, Sandwa Chandika Pratarpgarh. I gave the JEE exam and came to
+                Indore, Madhya Pradesh and took admission in B.Tech(CSE)</p>
+        </div>
+    </section>
+   </div>
+   <!-- here will be adding javascript code to color changer -->
+
+   <script>
+    function changeBG(color) {
+        document.body.style.backgroundColor = color;
+    }
+</script>
+
+<!-- this code will go till here  -->
+
+</body>
+
+</html>

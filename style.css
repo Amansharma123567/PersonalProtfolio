@@ -1,0 +1,113 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:  #f0f0f0;
+    position: static;
+}
+
+
+/* adding css code for the background changer purpose */
+.btn {
+    width: 2rem;
+    height: 2rem;
+    display: inline-block;
+    border: .002rem solid blue;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#lightgreen {
+    background-color: lightgreen;
+}
+
+#aqua {
+    background-color: aqua;
+}
+
+#salmon {
+    background-color: salmon;
+}
+#violet {
+    background-color: violet;
+}
+#dodgerblue {
+    background-color: dodgerblue;
+}
+#skin{
+    background-color: sandybrown;
+}
+
+#color-switcher {
+    text-align: right;
+    float: right;
+}
+/* this will go on here  */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+}
+header h1{
+    font-size: 40px;
+}
+header nav a {
+    color: #fff;
+    margin: 0 30px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.main-section {
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.welcome-text {
+    /* max-width: 4000px; */
+    max-width: 50%;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.welcome {
+    font-size: 4em; /* Change the font size to your liking (2em is just an example) */
+}
+.intro{
+    font-size: 1.6em;
+}
+
+img {
+    height: 400px;
+    width: 350px;
+    border: 4px solid #333;
+    border-radius: 25px;
+    margin-top: 30px;
+}
+
+footer {
+    margin-top: 67px;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    flex-flow: column;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    flex-wrap: wrap-reverse;
+    display: flex;
+    bottom: 0;
+    width: 100%;
+    height: 261%;
+}
+footer nav a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 5px;
+}

@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: lightslategray;
+}
+
+header{
+    
+
+/* adding css code for the background changer purpose */
+.btn {
+    width: 2rem;
+    height: 2rem;
+    display: inline-block;
+    border: .002rem solid blue;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+#lightgreen {
+    background-color: lightgreen;
+}
+
+#aqua {
+    background-color: aqua;
+}
+
+#salmon {
+    background-color: salmon;
+}
+#violet {
+    background-color: violet;
+}
+#dodgerblue {
+    background-color: dodgerblue;
+}
+#skin{
+    background-color: sandybrown;
+}
+
+#color-switcher {
+    text-align: right;
+    float: right;
+}
+/* this will go on here  */
+}
+
+.styleSections{
+    margin:30px;
+}
+.about-me {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #f9f9f9;
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+}
+
+.content {
+    width: 45%;
+    font-size: 25px;
+}
+
+.image {
+    width: 45%;
+    text-align: center;
+}
+
+.image img {
+    height: 400px;
+    width: 600px;
+    /* max-width: 100%; */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+#ach{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 3px;
+}
+.btn{
+    border: 1px solid #333;
+    border-radius: 5px;
+    padding: 2px;
+    background-color: #333;
+    text-decoration: none;
+    color: whitesmoke;
+}

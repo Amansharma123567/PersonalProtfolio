@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aman Sharma's Resume</title>
+    <link rel="stylesheet" href="resume.css">
+</head>
+<body>
+    <header>
+        <h1>Aman Sharma</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Me</a>
+            <a href="skills.html">Skills</a>
+            <a href="projects.html">Projects</a>
+            <a href="certifications.html">Certifications</a>
+
+            <!-- adding html text to change thecolor that is here -->
+
+        <div id="color-switcher">
+            <span class="btn" id="lightgreen" onclick="changeBG('#90ee90')"></span>
+            <span class="btn" id="aqua" onclick="changeBG('#7fffd4')"></span>
+            <span class="btn" id="salmon" onclick="changeBG('#FA8072')"></span>
+            <span class="btn" id="violet" onclick="changeBG('#EE82EE')"></span> 
+            <span class="btn" id="dodgerblue" onclick="changeBG('#1E90FF')"></span> 
+            <span class="btn" id="skin" onclick="changeBG('#F4A460')"></span>   
+        </div>
+        <!-- will go onto here -->
+
+        </nav>
+    </header>
+    <div class="resume">
+        <div class="header">
+            <div class="name">
+                <p id="nameing"><b>Aman Sharma</b></p>
+            </div>
+            <div class="contact">
+                <p>+91-8173812110</p>
+                <p>aman.sharma817381@gmail.com</p>
+                <p>616, New Gouri Nagar Indore (452010)</p>
+                <p><a href="https://www.linkedin.com/in/amansharma8173">LinkedIn Profile</a></p>
+            </div>
+        </div>
+        <hr>
+        <h2>Professional Qualifications:</h2>
+        <ul>
+            <li>B-Tech (CS) Year (2020 - 2024) - Malwa Institute of Technology, Bypass Indore. (7.8 CGPA)</li><br>
+            <li>Intermediate Year (2019 - 2020) - Shree Chandika Inter Mediate College, Pratapgarh (UP). (74%)</li><br>
+            <li>High School Year (2017 - 2018) - Shree Chandika Inter Mediate College, Pratapgarh (UP). (79.16%)</li><br>
+        </ul>
+        <h2>Skills:</h2>
+        <hr>
+        <ul>
+            <li>Java (Core): OOPS, Exception-Handling, Multi-Threading, Collection Framework.</li><br>
+            <li>Java (Advance): JDBC, Servlet, JSP.</li><br>
+            <li>Spring (Core): IOC, DI, Bean, Annotation, Configuration, Autowiring.</li><br>
+            <li>Front end: HTML, CSS, JS.</li><br>
+            <li>Database: MySQL.</li><br>
+            <li>Junit Testing: Annotations.</li><br>
+            <li>Tools: VS Code, IntelliJ IDEA, NetBeans, Spring tool suits, MySQL Workbench.</li><br>
+        </ul>
+        <h2>Projects:</h2>
+        <hr>
+        <ul>
+            <li><b>TechnoWaves:</b>
+                <li>A blog website is that allows user to create an account and write their blog about their ideas,
+                    programming and technologies and their interests.
+                    </li>
+                <li>
+                    Technology: HTML, CSS, JS, Bootstrap, Java, JDBC, Servlet, JSP
+                </li>
+            </li><br>
+            <li><b>MIT Assistant:</b> 
+                <li>It is an Android based project to help the MIT college staff and student in college stuffs like 
+                    filling exam form, getting result, login their ERP, submitting attendance etc</li>
+                <li> Technology: Android Studio, Java.
+                </li>
+            </li><br>
+            <li><b>Weather Application:</b> 
+            <li> A website that shows the current weather of any city with current humidity and wind speed.</li>
+            <li> Technology: HTML, CSS, JS and open weather API.</li>
+            </li><br>
+        </ul>
+        <h2>Core Subjects:</h2>
+        <hr>
+        <ul>
+            <li>Data Structure and Algorithms</li><br>
+            <li>Operating System</li><br>
+            <li>Database Management System</li><br>
+            <li>Computer Networks</li><br>
+        </ul>
+        <h2>Certifications & Achievements:</h2>
+        <hr>
+        <ul>
+            <li>Java (Core): Completed 6 weeks online training with certification from INTERNSHALA.</li><br>
+            <li>AWS Cloud Foundation: Completed all the modules and learned different-different AWS Cloud services and architecture with Certification.</li><br>
+            <li>Hackerrank: 5 STAR in solving java problems, solved 50+ questions about different java concepts.</li><br>
+            <li>GeeksForGeeks: Solved 100+ problems of Data Structures and Algorithms in JAVA.</li><br>
+        </ul>
+    </div>
+
+    <!-- here will be adding javascript code to color changer -->
+
+    <script>
+        function changeBG(color) {
+            document.body.style.backgroundColor = color;
+        }
+    </script>
+
+    <!-- this code will go till here  -->
+</body>
+</html>
